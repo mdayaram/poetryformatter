@@ -7,6 +7,7 @@ get '/styles/:file.css' do
 end
 
 get '/' do
+  @outpoetry = "hi"
   haml :index
 end
 

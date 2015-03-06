@@ -1,1 +1,7 @@
-Oh, snapple
+%form{ :name => "poetry-form", :action => "/format", :method => "post" }
+	%textarea{ :name => "inpoetry", :id => "inpoetry" }
+	%input{ :id => "submit", :type => "submit", :value => "Format" }
+
+%textarea{ :name => "outpoetry", :id => "outpoetry", :readonly => "" }
+	:escaped
+		#{@outpoetry}
