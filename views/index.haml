@@ -5,11 +5,11 @@
 	%input{ :id => "title", :name => "title", :type => "text", :value => @title }
 
 	%br
-	%textarea{ :name => "inpoetry", :id => "inpoetry" }
+	%textarea{ :name => "inpoetry", :id => "inpoetry", :placeholder => "Input poem here"}
 		#{preserve(@inpoetry)}
 	%br
 	%input{ :id => "submit", :type => "submit", :value => "Format" }
 
 %br
-%textarea{ :name => "outpoetry", :id => "outpoetry", :readonly => "" }
+%textarea{ :name => "outpoetry", :id => "outpoetry", :readonly => "", :placeholder => "And behold the glorious output here." }
 	#{preserve(html_escape(@outpoetry))}
