@@ -1,0 +1,96 @@
+html, body {
+}
+
+h1 {
+  font-family: Helvetica, San-serif;
+  text-align: center;
+}
+
+.all-the-things {
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  padding: 0px 0px 25px 0px;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+.content {
+  width: 75%;
+  padding: 25px 0px 25px 0px;
+  float: left;
+}
+
+footer {
+  width: 300px;
+  padding: 25px 0px 0px 0px;
+  float: left;
+}
+
+.feed {
+  width: 200px;
+  margin: auto;
+}
+
+/* inside content */
+.owner {
+  font-family: Georgia, Serif;
+  font-size: 72px;
+  text-align: left;
+  display: inline-block;
+  margin: 0 15% 0 15%;
+  p {
+    font-size: 30px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.steal-form {
+  font-size: 24px;
+  margin: 15% 10% 0 10%;
+  text-align: center;
+}
+
+.actions {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+.action {
+  font-family: Helvetica, San-serif;
+  font-size: 20px;
+  display: inline-block;
+}
+
+a { color: #000; }
+a:link { color: #000; }
+a:visited { color: #000; }
+a:hover { color: #000; }
+a:active { color: #000; }
+
+.owner a { text-decoration: none; color: #0084B4; }
+.owner a:link { text-decoration: none; color: #0084B4; }
+.owner a:visited { text-decoration: none; color: #0084B4; }
+.owner a:hover { text-decoration: none; color: #0084B4; }
+.owner a:active { text-decoration: none; color: #0084B4; }
+
+table, tr, th, td {
+  font-family: Helvetica, Verdana, san-serif;
+  font-size: 14px;
+  padding: 0px 10px 0px 10px;
+}
+
+tr.one {
+  background: rgba(25, 25, 25, .1);
+}
