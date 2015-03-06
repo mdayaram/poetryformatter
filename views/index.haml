@@ -1,5 +1,6 @@
-%form{ :name => "poetry-form", :action => "/format", :method => "post" }
+%form{ :name => "poetry-form", :action => "/", :method => "post" }
 	%textarea{ :name => "inpoetry", :id => "inpoetry" }
+		= @inpoetry
 	%input{ :id => "submit", :type => "submit", :value => "Format" }
 
 %textarea{ :name => "outpoetry", :id => "outpoetry", :readonly => "" }
